@@ -39,7 +39,9 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn border-black hover:bg-orange-700 hover:scale-105 px-5 bg-orange-500 text-white">    <Download />CV</a>
+    <a href='/CV/Hasib-Al-Mamun-Cv.pdf'
+    target="_blank"
+  rel="noopener noreferrer" className="btn border-black hover:bg-orange-700 hover:scale-105 px-5 bg-orange-500 text-white">    <Download />CV</a>
   </div>
 </div>
     );

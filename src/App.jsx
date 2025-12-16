@@ -1,8 +1,10 @@
 
 import './App.css'
 import AboutMe from './Components/About'
+import Contact from './Components/Contact'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import Projects from './Components/Project'
 import LogoMarquee from './Components/Skill'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Hero />
       <AboutMe/>
       <LogoMarquee></LogoMarquee>
+      <Projects/>
+      <Contact/>
       </div>
     </>
   )

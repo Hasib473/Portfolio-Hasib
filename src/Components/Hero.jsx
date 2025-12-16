@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import heroImage from "../assets/Hero Img.jpg"; 
+import { Contact, Phone } from "lucide-react";
 
 const texts = [
   "Font-End Developer",
-  "Back-End Developer",
-  "Full-Stack Developer",
+  "Web Developer",
+  "Problem Solver",
 ];
 
 const Hero = () => {
@@ -66,13 +67,15 @@ const Hero = () => {
             real-world problems with clean and efficient code.
           </p>
 
-          <a
-            href="#contact"
-            className="inline-block bg-orange-500 text-white px-6 py-3 rounded-md font-semibold
-            hover:bg-orange-600 transition-all duration-300 hover:scale-105"
-          >
-            Contact Me
-          </a>
+         <a
+  href="#contact"
+  className="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-md font-semibold
+  hover:bg-orange-600 transition-all duration-300 hover:scale-105"
+>
+  <Phone size={18} />
+  <span>Contact Me</span>
+</a>
+
         </div>
 
         {/* RIGHT SIDE */}
